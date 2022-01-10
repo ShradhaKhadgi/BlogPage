@@ -11,7 +11,6 @@ const SingleCard = (props) =>{
           })
           setlist(items);
           setDisplay('block');
-          console.log(items);
       }
     return (
         <>
@@ -53,7 +52,7 @@ const SingleCard = (props) =>{
             Orci dapibus ultrices in iaculis nunc sed augue. Gravida neque convallis a cras semper auctor neque. Amet aliquam id diam maecenas ultricies mi. Ut tellus elementum sagittis vitae et leo duis ut. Dignissim enim sit amet venenatis urna cursus eget. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Tempor orci dapibus ultrices in. Quis vel eros donec ac odio tempor orci dapibus. Penatibus et magnis dis parturient montes. Ultricies mi quis hendrerit dolor magna eget est lorem.        
             </p>
             <div className="row mb-4" style={{display: display}}>
-            <p className="h3">Author Id :{props.userId} Post</p>
+            <p className="h3">Author Id : {props.userId} Post</p>
             </div>
             {
               list.map((elem,id)=>{
